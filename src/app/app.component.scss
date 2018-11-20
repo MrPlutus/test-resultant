@@ -1,0 +1,23 @@
+table {
+  width: 100%;
+}
+
+.cnt {
+  display: table;
+  width: 100%;
+
+  &__left,  &__right {
+    display: table-cell;
+  }
+
+  &__right {
+    text-align: center;
+    width: 10%;
+  }
+
+  .spinner {
+    margin-top: 50px;
+    margin-left: 30%;
+  }
+
+}
